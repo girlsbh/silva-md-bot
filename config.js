@@ -11,7 +11,7 @@ const ownervb = process.env.OWNERS || "254743706010"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [legacy];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -29,13 +29,13 @@ global.allowed = ['254743706010', '254700143167']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
-  '29d4b59a4aa687ca',
-  '5LTV57azwaid7dXfz5fzJu',
-  'cb15ed422c71a2fb',
-  '5bd33b276d41d6b4',
+  '9xRQQDKJ#J7QWuGaI4fszKQrpPd6x6P_tYs-JHUHUgP_SFoD0ZIA',
+  '9xRQQDKJ#J7QWuGaI4fszKQrpPd6x6P_tYs-JHUHUgP_SFoD0ZIA',
+  '9xRQQDKJ#J7QWuGaI4fszKQrpPd6x6P_tYs-JHUHUgP_SFoD0ZIA',
+  '9xRQQDKJ#J7QWuGaI4fszKQrpPd6x6P_tYs-JHUHUgP_SFoD0ZIA',
   'HIRO',
   'kurrxd09',
-  'ebb6251cc00f9c63',
+  '9xRQQDKJ#J7QWuGaI4fszKQrpPd6x6P_tYs-JHUHUgP_SFoD0ZIA',
 ]
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
@@ -71,7 +71,7 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'silva'
+global.packname = 'legacy'
 global.author = 'silva'
 global.menuvid = ''
 global.igfg = ''
